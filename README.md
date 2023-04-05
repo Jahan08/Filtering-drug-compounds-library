@@ -4,7 +4,7 @@
 * Lipniski's Rule of Five (RO5)
 * Pat walters developed REOS (Rapid Elimination of Swill) to eliminate compounds with the sets of substructures which are likely to produce artifacts in cellular assay.
 * QED :to find highly preferable molecules
-* Eli Lily develop a software with 275 rules to eliminate flase positive HIT
+* Eli Lily develop a software with 275 rules to eliminate flase positive HIT [LINK](https://github.com/IanAWatson/Lilly-Medchem-Rules)
 * StarDrop/Pipeline pilot has substructure filter to remove PAINS compounds 
 * BARD: Bioassay Research database [BARD](http://bard.nih.gov)
 * PAINS filters developed by Bael and Holloway (In a highly cited study, Baell and Holloway analyzed compounds that showed activity in multiple assays and
