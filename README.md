@@ -35,5 +35,7 @@ He tried Inpharmatica structural alerts from ChEMBL against HIV dataset from Dee
 
 * Microsoft and Novartis developed MolSkill to find preferable drug molecules: We also show that the proposed learned scoring function can better capture the concept of drug-likeness more accurately than another widely used metric (QED).
 
+[Pat Walters's opinion](http://practicalcheminformatics.blogspot.com/2023/04/getting-inside-mind-of-medicinal.html): In the MolSkill paper, the authors show that the two metrics are not correlated, but I wonder if MolSkill is telling me something I'm not getting from QED.  At the end of the day, I like to use tools I understand.  QED is based on simple descriptors I've used for years, and I know how it works.  MolSkill is based on a neural network and is a bit of a black box)
+
 
 
