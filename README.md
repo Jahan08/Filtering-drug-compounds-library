@@ -3,7 +3,6 @@
 
 * Lipniski's Rule of Five (RO5)
 * Pat walters developed REOS (Rapid Elimination of Swill) to eliminate compounds with the sets of substructures which are likely to produce artifacts in cellular assay.
-* QED :to find highly preferable molecules
 * Eli Lily develop a software with 275 rules to eliminate flase positive HIT [LINK](https://github.com/IanAWatson/Lilly-Medchem-Rules)
 * StarDrop/Pipeline pilot has substructure filter to remove PAINS compounds 
 * BARD: Bioassay Research database [BARD](http://bard.nih.gov)
@@ -30,6 +29,8 @@ He tried Inpharmatica structural alerts from ChEMBL against HIV dataset from Dee
 * Structural alerts provide a means of identifying and potentially eliminating some of these potentially problematic molecules.
 * The rd_filters.py script provides a convenient way of applying a number of different sets of structural alerts to a set of molecules. Please give it a try. 
 * A lot of these filters are somewhat subjective and based on people's experience.  4 of the 8 rule sets in ChEMBL will reject the sulfonic acids shown at the beginning of this post, the other four will not.
+
+# FINDING PREFERABLE MOLECULES
 
 
 
