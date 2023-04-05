@@ -31,7 +31,9 @@ He tried Inpharmatica structural alerts from ChEMBL against HIV dataset from Dee
 * A lot of these filters are somewhat subjective and based on people's experience.  4 of the 8 rule sets in ChEMBL will reject the sulfonic acids shown at the beginning of this post, the other four will not.
 
 # FINDING PREFERABLE MOLECULES
+* QED - QED stands for quantitative estimation of drug-likeness and the concept was for the first time introduced by Richard Bickerton and coworkers. The empirical rationale of the QED measure reflects the underlying distribution of molecular properties including molecular weight, logP, topological polar surface area, number of hydrogen bond donors and acceptors, the number of aromatic rings and rotatable bonds, and the presence of unwanted chemical functionalities.
 
+* Microsoft and Novartis developed MolSkill to find preferable drug molecules: We also show that the proposed learned scoring function can better capture the concept of drug-likeness more accurately than another widely used metric (QED).
 
 
 
