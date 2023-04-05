@@ -23,4 +23,14 @@ PAINS alerts and profiled their bioassay activity. Based on this detailed analys
 
 We have compiled a number of sets of publicly-available structural alerts where SMARTS were readily available and useable; these include Pfizer LINT filters, Glaxo Wellcome Hard Filters, Bristol-Myers Squibb HTS Deck Filters, NIH MLSMR Excluded Functionality Filters, University of Dundee NTD Screening Library Filters and Pan Assay Interference Compounds (PAINS) Filters. These sets of filters aim to identify compounds that could be problematic in a drug-discovery setting for various different reasons (e.g., substructural/functional group features that might be associated with toxicity or instability in in vivo info settings, compounds that might interfere with assays and for example, appear to be 'frequent hitters' in HTS). It should be noted however that some alerts/alert sets are more permissive than others and may flag a large number of compounds. Results should therefore be interpreted with care, depending on the use-case, and not treated as a blanket filter (e.g., around 50% of approved drugs have 1 or more alerts from these pooled sets). The compound report card page now provides a summary count of the number of structural alerts hits picked up.
 
+### Pat Walters's filtering
+
+He tried Inpharmatica structural alerts from ChEMBL against HIV dataset from DeepChem and sum up some ideas:
+* Most screening collections contain a lot of molecules that probably shouldn't be there.*
+* Structural alerts provide a means of identifying and potentially eliminating some of these potentially problematic molecules.
+* The rd_filters.py script provides a convenient way of applying a number of different sets of structural alerts to a set of molecules. Please give it a try. 
+* A lot of these filters are somewhat subjective and based on people's experience.  4 of the 8 rule sets in ChEMBL will reject the sulfonic acids shown at the beginning of this post, the other four will not.
+
+
+
 
