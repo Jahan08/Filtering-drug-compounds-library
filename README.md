@@ -11,7 +11,7 @@
 suggested that these compounds may interfere with the bioactivity detection technology. Such compounds were cleverly dubbed PAINS, or Pan-Assay INterference compoundS.)
 * Pat Walters's blog about [Filtering Chemical Libraries](http://practicalcheminformatics.blogspot.com/2018/08/filtering-chemical-libraries.html)
 
-###[PAINS alerts by Bael and Hollowa ](http://medicinal-chemistry.org/files/aldrich/PAINs.pdf)
+### [PAINS alerts by Bael and Hollowa ](http://medicinal-chemistry.org/files/aldrich/PAINs.pdf)
 the authors then identified 480 “PAINS alerts”, i.e., substructural features frequently found in PAINS, and suggested that these alerts could be used to flag false screening hits and annotate suspect compounds in screening libraries
 
 ### [Discussion against PAINS filtering by Tropsha](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.6b00465)
