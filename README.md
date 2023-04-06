@@ -1,5 +1,15 @@
 # Developing A.I model to predict the bilogical activity of library/ies
 
+#### Y-scrambling [link](https://medium.com/analytics-vidhya/adversarial-controls-is-your-model-just-learning-noise-96f1857eb631)
+
+Y-scrambling is a type of straw model where you intentionally break any potential linkages between the input features and the response variable. This procedure is easy to implement: you simply shuffle the response variable of the training data and repeat the training procedure.
+
+It is important to note that here the “training procedure” includes all the steps used to train the model, including feature selection and hyperparameter tuning using a validation set (which was also shuffled).
+
+#### Counterfactual (MMACE)
+
+That trust is especially crucial in drug discovery, for example, where machine learning is used to sort through millions of potentially toxic compounds to determine which might be safe candidates for pharmaceutical drugs. White and his lab have developed a new "counterfactual" method, described in Chemical Science, that can be used with any molecular structure-based machine learning model to better understand how the model arrived at a conclusion. Counterfactuals can tell researchers "the smallest change to the features that would alter the prediction," says lead author Geemi Wellawatte, a Ph.D. student in White's lab. "In other words, a counterfactual is an example as close to the original, but with a different outcome."
+
 # Filtering Chemical Libraries
 
 
