@@ -1,3 +1,6 @@
+# Developing A.I model to predict the bilogical activity of library/ies
+
+
 # FINDING PREFERABLE MOLECULES
 * QED - QED stands for quantitative estimation of drug-likeness and the concept was for the first time introduced by Richard Bickerton and coworkers. The empirical rationale of the QED measure reflects the underlying distribution of molecular properties including molecular weight, logP, topological polar surface area, number of hydrogen bond donors and acceptors, the number of aromatic rings and rotatable bonds, and the presence of unwanted chemical functionalities.
 
