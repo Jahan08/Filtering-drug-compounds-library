@@ -1,15 +1,5 @@
 # Developing A.I model to predict the bilogical activity of library/ies
 
-
-# FINDING PREFERABLE MOLECULES
-* QED - QED stands for quantitative estimation of drug-likeness and the concept was for the first time introduced by Richard Bickerton and coworkers. The empirical rationale of the QED measure reflects the underlying distribution of molecular properties including molecular weight, logP, topological polar surface area, number of hydrogen bond donors and acceptors, the number of aromatic rings and rotatable bonds, and the presence of unwanted chemical functionalities.
-
-* Microsoft and Novartis developed MolSkill to find preferable drug molecules: We also show that the proposed learned scoring function can better capture the concept of drug-likeness more accurately than another widely used metric (QED).
-
-[Pat Walters's opinion](http://practicalcheminformatics.blogspot.com/2023/04/getting-inside-mind-of-medicinal.html): In the MolSkill paper, the authors show that the two metrics are not correlated, but I wonder if MolSkill is telling me something I'm not getting from QED.  At the end of the day, I like to use tools I understand. QED is based on simple descriptors I've used for years, and I know how it works.  MolSkill is based on a neural network and is a bit of a black box)
-
-* SA-score (synthetic accessibility (SA) score as a score between 1 (easy to make) and 10 (very difficult to make), Synthesizability score to identify odd molecules): The SA score approach begins by using rules to derive a set of molecular fragments and their frequencies from almost a million molecules randomly selected from the PubChem database.  The SA score for a new molecule can then be calculated by fragmenting the molecule according to the same set of rules and looking up the frequency of the fragments.  If a molecule contains frequently occurring fragments, people have probably made similar molecules before, and we consider the molecule synthesizable.  If the molecule contains rare fragments that haven't been seen before, it will likely be more challenging to synthesize. [LINK](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-1-8)
-
 # Filtering Chemical Libraries
 
 
@@ -41,6 +31,15 @@ He tried Inpharmatica structural alerts from ChEMBL against HIV dataset from Dee
 * Structural alerts provide a means of identifying and potentially eliminating some of these potentially problematic molecules.
 * The rd_filters.py script provides a convenient way of applying a number of different sets of structural alerts to a set of molecules. Please give it a try. 
 * A lot of these filters are somewhat subjective and based on people's experience.  4 of the 8 rule sets in ChEMBL will reject the sulfonic acids shown at the beginning of this post, the other four will not.
+
+# FINDING PREFERABLE MOLECULES
+* QED - QED stands for quantitative estimation of drug-likeness and the concept was for the first time introduced by Richard Bickerton and coworkers. The empirical rationale of the QED measure reflects the underlying distribution of molecular properties including molecular weight, logP, topological polar surface area, number of hydrogen bond donors and acceptors, the number of aromatic rings and rotatable bonds, and the presence of unwanted chemical functionalities.
+
+* Microsoft and Novartis developed MolSkill to find preferable drug molecules: We also show that the proposed learned scoring function can better capture the concept of drug-likeness more accurately than another widely used metric (QED).
+
+[Pat Walters's opinion](http://practicalcheminformatics.blogspot.com/2023/04/getting-inside-mind-of-medicinal.html): In the MolSkill paper, the authors show that the two metrics are not correlated, but I wonder if MolSkill is telling me something I'm not getting from QED.  At the end of the day, I like to use tools I understand. QED is based on simple descriptors I've used for years, and I know how it works.  MolSkill is based on a neural network and is a bit of a black box)
+
+* SA-score (synthetic accessibility (SA) score as a score between 1 (easy to make) and 10 (very difficult to make), Synthesizability score to identify odd molecules): The SA score approach begins by using rules to derive a set of molecular fragments and their frequencies from almost a million molecules randomly selected from the PubChem database.  The SA score for a new molecule can then be calculated by fragmenting the molecule according to the same set of rules and looking up the frequency of the fragments.  If a molecule contains frequently occurring fragments, people have probably made similar molecules before, and we consider the molecule synthesizable.  If the molecule contains rare fragments that haven't been seen before, it will likely be more challenging to synthesize. [LINK](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-1-8)
 
 
 
